@@ -24,6 +24,8 @@ Preprocessor.c
 preprocessor.dtd
 Preprocessor.h
 Preprocessor.xs
+rinchi_string.c
+rinchi_string.h
 README
 Rinchi-CPlusPlus-Preprocessor.ppd
 t/Rinchi-CPlusPlus-Preprocessor.t

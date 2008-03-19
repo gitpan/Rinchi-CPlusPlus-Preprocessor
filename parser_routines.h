@@ -24,7 +24,6 @@ int add_dependency(char *dep_path);
 void add_char(int ch);
 void copy_string(char *chars);
 void copy_string_less(char *chars);
-char *strdup_less(const char *str);
 void copy_utf8(unsigned char *chars);
 long get_value_octal();
 long get_value_decimal();
@@ -79,6 +78,5 @@ void handle_use_on_code(const char *use_on_code);
 int use_on_code_matched();
 void define_include_directory(char *directory);
 
-
-#endif // _bb188d3b_e320_11dc_8b9d_00502c05c241_
+#endif // ifndef _bb188d3b_e320_11dc_8b9d_00502c05c241_
 

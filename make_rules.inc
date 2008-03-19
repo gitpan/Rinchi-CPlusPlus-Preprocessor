@@ -6,6 +6,8 @@ parser_routines.o: parser_routines.c parser_routines.h lexer.h tree.h include_pa
 
 Preprocessor.o: Preprocessor.c Preprocessor.h
 
+rinchi_string.o: rinchi_string.c rinchi_string.h
+
 toperl.o: toperl.c lexer.h Preprocessor.h parser_routines.h parser.tab.h
 
 tree.o: tree.c tree.h parser.tab.h lexer.h node.def token.def

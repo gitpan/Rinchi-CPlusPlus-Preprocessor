@@ -1,16 +1,10 @@
-Rinchi-CPlusPlus-Preprocessor version 0.01
+Rinchi-CPlusPlus-Preprocessor version 0.02
 ==========================================
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the
-README file from a module distribution so that people browsing the
-archive can use it get an idea of the modules uses. It is usually a
-good idea to provide version information here so that people can
-decide whether fixes for the module are worth downloading.
+A C++ preprocessor that provides results through an XML SAX interface. It
+implements full macro expansion capabilities and all standard preprocessing
+directives. It also provides an alternative to complex conditional compilation,
+use on code.
 
 INSTALLATION
 
@@ -31,6 +25,7 @@ XSLoader
 
 flex
 bison
+popt
 
 COPYRIGHT AND LICENCE
 

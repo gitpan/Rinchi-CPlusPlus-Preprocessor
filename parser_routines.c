@@ -10,6 +10,7 @@
 #include <search.h>
 #include <time.h>
 #include "parser_routines.h"
+#include "rinchi_string.h"
 #include "lexer.h"
 #include "tree.h"
 #include "include_path.h"
@@ -187,18 +188,6 @@ char *get_str() {
 }
 
 //char *strndup(const char *S, size_t SIZE);
-
-/*
- * Duplicate a string less first and last characters.
- */
-char *strdup_less(const char *str) {
-  size_t size = strlen(str)-2;
-  if(size >= 0) {
-    return strndup(str+1, size);
-  } else {
-    return 0;
-  }
-}
 
 /*
  * Copy UTF-8 characters to the buffer using Universal Character Names.
